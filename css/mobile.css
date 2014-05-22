@@ -1,40 +1,39 @@
-
 @font-face {
     font-family: 'roboto';
-    src: url('fonts/Roboto-Light-webfont.eot');
-    src: url('fonts/Roboto-Light-webfont.eot?#iefix') format('embedded-opentype'),
-    url('fonts/Roboto-Light-webfont.woff') format('woff'),
-    url('fonts/Roboto-Light-webfont.ttf') format('truetype'),
-    url('fonts/Roboto-Light-webfont.svg#robotolight') format('svg');
+    src: url('../fonts/Roboto-Light-webfont.eot');
+    src: url('../fonts/Roboto-Light-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Roboto-Light-webfont.woff') format('woff'),
+    url('../fonts/Roboto-Light-webfont.ttf') format('truetype'),
+    url('../fonts/Roboto-Light-webfont.svg#robotolight') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'roboto';
-    src: url('/fonts/Roboto-Medium-webfont.eot');
-    src: url('/fonts/Roboto-Medium-webfont.eot?#iefix') format('embedded-opentype'),
-    url('/fonts/Roboto-Medium-webfont.woff') format('woff'),
-    url('/fonts/Roboto-Medium-webfont.ttf') format('truetype'),
-    url('/fonts/Roboto-Medium-webfont.svg#robotomedium') format('svg');
+    src: url('../fonts/Roboto-Medium-webfont.eot');
+    src: url('../fonts/Roboto-Medium-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Roboto-Medium-webfont.woff') format('woff'),
+    url('../fonts/Roboto-Medium-webfont.ttf') format('truetype'),
+    url('../fonts/Roboto-Medium-webfont.svg#robotomedium') format('svg');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'sansita';
-    src: url('/fonts/sansitaone-webfont.eot');
-    src: url('/fonts/sansitaone-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/fonts/sansitaone-webfont.woff') format('woff'),
-         url('/fonts/sansitaone-webfont.ttf') format('truetype'),
-         url('/fonts/sansitaone-webfont.svg#sansita_oneregular') format('svg');
+    src: url('../fonts/sansitaone-webfont.eot');
+    src: url('../fonts/sansitaone-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/sansitaone-webfont.woff') format('woff'),
+    url('../fonts/sansitaone-webfont.ttf') format('truetype'),
+    url('../fonts/sansitaone-webfont.svg#sansita_oneregular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
 html {
     font-family: roboto, sans-serif;
-    font-size: 12px !important;
+    font-size: 13px !important;
     margin: 0;
     padding: 0;
 }
@@ -42,9 +41,13 @@ html {
 body {
     font-family: roboto, sans-serif !important;
     background: #282927;
-    font-size: 12px !important;
+    font-size: 13px !important;
     margin: 0;
     padding: 0;
+}
+
+.navigation {
+    display: none;
 }
 
 .clear {
@@ -83,112 +86,25 @@ body {
     margin: 0px;
     box-shadow: 0 0 20px #000, inset 100px 0 100px -100px rgba(100, 90, 75, 0.3), inset -100px 0 100px -100px rgba(100, 90, 75, 0.3);
     background: #f6f7f5;
-}
-
-.header {
-    color: #FFF;
-}
-
-#profile-header {
-    background: #C80606;
-}
-
-#expertise-header {
-    background: #E06F1D;
-}
-
-#experience-header {
-    background: #538400;
-}
-
-#others-header {
-    background: #0760AD;
-}
-
-#education-header {
-    background: #8325AC;
+    padding-top: 5px;
 }
 
 .header h3 {
-    line-height: 26px;
-    font-family: sansita, serif;
-    font-size: 22px;
+    font-family: roboto, serif;
+    font-size: 30px;
     font-weight: normal;
-    padding: 5px 5px;
-    text-shadow: 2px 2px rgba(0, 0, 0, 0.3);
+    padding: 5px 15px;
+}
+
+h4 {
+    font-family: roboto, serif;
+    font-weight: normal;
+    font-size: 20px;
+    margin: 15px 0;
 }
 
 .section {
     padding: 15px;
-}
-
-ul.summary, ul.words, ul.jobs {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-ul.summary li {
-    margin: 5px 0;
-}
-
-#expertise h5 {
-    color: #555;
-}
-
-ul.jobs li.job {
-    padding: 15px 0;
-    border-bottom: 1px dotted #ccc;
-}
-
-ul.jobs li.job:last-child {
-    border-bottom: none;
-}
-
-ul.jobs h5 {
-    text-align: center;
-    margin: 0;
-    padding: 0;
-}
-
-ul.jobs h5 img {
-    display: block;
-    margin: 0 auto;
-    margin-bottom: 10px;
-}
-
-ul.jobs h5 span.date-range {
-    font-weight: normal;
-    font-size: 12px;
-    display: block;
-}
-
-@media only screen and (max-device-width: 600px) {
-    ul.jobs h5 {
-        float: none;
-        width: 100%;
-    }
-    ul.jobs div.job-detail {
-        margin: 5px 0 0 0;
-    }
-}
-@media only screen and (min-device-width: 601px) {
-    ul.jobs h5 {
-        float: left;
-        width: 170px;
-    }
-    ul.jobs div.job-detail {
-        margin: 0 0 0 190px;
-    }
-}
-
-ul.projects {
-    margin: 0;
-    padding: 15px 15px 0 15px;
-}
-
-li.project {
-    margin-bottom: 5px;
 }
 
 .column-2-1 {
@@ -239,59 +155,6 @@ div.links {
     display: none;
 }
 
-a.download, a.download:link, a.download:visited {
-    color: #bbb;
-    text-decoration: none;
-    text-shadow: 0px 0px 4px rgba(0, 0, 0, 1), 0px 0px 2px rgba(0, 0, 0, 1);
-}
-
-a.download:hover, a.download:active {
-    color: #FFF;
-    text-decoration: none;
-}
-
-a.download i {
-    display: none !important;
-}
-
-li.job {
-    *zoom: 1;
-}
-
-li.job:before, li.job:after {
-    display: table;
-    line-height: 0;
-    content: "";
-}
-
-li.job:after {
-  clear: both;
-}
-
-#others ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-#others .icon-chevron-sign-right {
-    margin-right: 5px;
-}
-
-#others .other-content {
-    margin-left: 25px;
-}
-
-#others a, #others a:link, #others a:visited {
-    margin-left: 5px;
-    color: #aaa;
-}
-
-#others a:hover, #others a:active {
-    text-decoration: none;
-    color: #0088CC;
-}
-
 .clearfix {
   *zoom: 1;
 }
@@ -307,22 +170,23 @@ li.job:after {
   clear: both;
 }
 
-.toggle:hover, .toggle:active {
-    text-decoration: none;
+code {
+    font-family: Consolas,Monaco,'Andale Mono',monospace;
 }
 
-.toggle span:before {
-    content: "\f078";
-    font-family: FontAwesome;
-    font-style: normal;
-    font-weight: normal;
-    text-decoration: inherit;
-    font-size: 12px;
-    padding-right: 4px;
+
+pre code {
+    position: relative;
+    top: -0.5em;
+    padding: 0 1.5em 1.5em 1.5em;
+    font-size: 90%;
+    background: #373830;
 }
 
-.collapsed span:before {
-    content: "\f054" !important;
-    padding-left: 2px;
-    padding-right: 6px;
+pre[class*="language-"] {
+    padding-top: 0;
+    overflow-x: auto;
+    overflow-y: hidden;
+    background: #373830;
+    border: none !important;
 }
