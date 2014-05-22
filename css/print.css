@@ -1,0 +1,125 @@
+body {
+	padding: 20px;
+}
+
+h1 {
+	text-align: center;
+	font-size: 180%;
+	margin: 15px 0 0px 0;
+	line-height: 30px;
+}
+
+h2 {
+	text-align: center;
+	font-size: 130%;
+	margin: 0;
+}
+
+h3 {
+	font-size: 130%;
+	padding: 0;
+	line-height: 24px;
+	border-bottom: 1px solid #ccc;
+}
+
+.contact {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.contact li {
+	line-height: 15px;
+}
+
+.contact a {
+	color: #000;
+	display: block;
+	text-align: center;
+}
+
+.contact a br {
+	display: none;
+}
+.contact a i {
+	display: none !important;
+}
+
+#contact-linkedin {
+	display: none;
+}
+#contact-visalia {
+	display: none;
+}
+
+.links {
+	display: none;
+}
+
+.toggle {
+	display: none;
+}
+
+.collapse {
+	height: auto;
+	overflow: auto;
+}
+
+#profile ul, #expertise ul, #experience ul {
+	list-style-type: none;
+}
+
+.column-2-1 {
+    float: left;
+    width: 50%;
+}
+.column-2-2 {
+    float: left;
+    width: 50%;
+}
+
+ul.jobs h5 {
+	margin: 0;
+	padding: 0;
+}
+
+ul.jobs img {
+	display: none;
+}
+
+ul.jobs li span.date-range {
+	padding-left: 5px;
+	font-weight: normal;
+}
+
+ul.projects li {
+	margin-bottom: 5px;
+}
+
+ul.projects li:last-child {
+	margin-bottom: 10px;
+}
+
+#others ul {
+	list-style-type: none;
+	margin: 0 0 0 5px;
+	padding: 0;
+}
+
+#others li {
+	margin-bottom: 10px;
+}
+
+#others a {
+	display: none;
+}
+
+#others .icon-chevron-sign-right {
+	margin-right: 5px;
+}
+
+#others .other-content {
+	margin-left: 25px;
+}
+

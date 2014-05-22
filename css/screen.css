@@ -1,0 +1,256 @@
+
+@font-face {
+    font-family: 'roboto';
+    src: url('../fonts/Roboto-Light-webfont.eot');
+    src: url('../fonts/Roboto-Light-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Roboto-Light-webfont.woff') format('woff'),
+    url('../fonts/Roboto-Light-webfont.ttf') format('truetype'),
+    url('../fonts/Roboto-Light-webfont.svg#robotolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'roboto';
+    src: url('../fonts/Roboto-Medium-webfont.eot');
+    src: url('../fonts/Roboto-Medium-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Roboto-Medium-webfont.woff') format('woff'),
+    url('../fonts/Roboto-Medium-webfont.ttf') format('truetype'),
+    url('../fonts/Roboto-Medium-webfont.svg#robotomedium') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'sansita';
+    src: url('../fonts/sansitaone-webfont.eot');
+    src: url('../fonts/sansitaone-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/sansitaone-webfont.woff') format('woff'),
+         url('../fonts/sansitaone-webfont.ttf') format('truetype'),
+         url('../fonts/sansitaone-webfont.svg#sansita_oneregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    font-family: roboto, sans-serif;
+    font-size: 13px !important;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: roboto, sans-serif !important;
+    background: #282927;
+    font-size: 13px !important;
+}
+
+.clear {
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+#title-panel {
+    color: #FFF;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 70%;
+    z-index: 90;
+}
+
+#title-panel-inner {
+    position: relative;
+    float: right;
+    max-width: 300px;
+    padding: 20px;
+    padding-top: 5px;
+}
+
+#title-panel h1, #title-panel h2 {
+    font-family: roboto, sans-serif;
+    font-weight: normal;
+    text-shadow: 0px 0px 6px rgba(0, 0, 0, 1), 0px 0px 4px rgba(0, 0, 0, 1), 0px 0px 2px rgba(0, 0, 0, 1);
+    text-align: right;
+}
+
+#title-panel h1 {
+    font-size: 250%;
+}
+
+#title-panel h2 {
+    font-size: 160%;
+    line-height: 25px;
+    margin-top: 25px;
+    color: #bbb;
+}
+
+#content-panel {
+    position: fixed;
+    left: 30%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    overflow-y: scroll;
+    z-index: 100;
+}
+
+#content-panel-inner {
+    max-width: 660px;
+    margin-left: 25px;
+    padding: 40px;
+    padding-top: 5px;
+    box-shadow: 0 0 20px #000, inset 100px 0 100px -100px rgba(100, 90, 75, 0.3), inset -100px 0 100px -100px rgba(100, 90, 75, 0.3);
+    background: #f6f7f5/* url(../img/fabric_plaid.png)*/;
+}
+
+.header {
+    width: 553px;
+    height: 59px;
+    z-index: 100;
+    position: relative;
+    left: -51px;
+}
+
+.header h3 {
+    line-height: 30px;
+    font-family: roboto, serif;
+    font-size: 30px;
+    font-weight: normal;
+    padding-top: 6px;
+    padding-left: 30px;
+}
+
+.section {
+    margin-bottom: 25px;
+}
+
+.section h4 {
+    font-weight: normal;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-size: 180%;
+}
+
+ul.summary, ul.words, ul.jobs {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.summary li {
+    margin: 5px 0;
+}
+
+.column-2-1 {
+    float: left;
+    width: 50%;
+}
+.column-2-2 {
+    float: left;
+    width: 50%;
+}
+
+ul.contact, ul.about {
+    list-style-type: none;
+    margin: 40px 0 30px 0;
+    padding: 0;
+    display: block;
+    width: 100%;
+}
+
+ul.contact li, ul.about li {
+    margin-bottom: 10px;
+}
+
+ul.contact a, ul.about a {
+    text-decoration: none;
+    display: block;
+    text-align: right;
+    color: #bbb;
+    font-size: 130%;
+    text-shadow: 0px 0px 4px rgba(0, 0, 0, 1), 0px 0px 2px rgba(0, 0, 0, 1);
+}
+
+ul.contact a:hover, ul.contact a:active, ul.about a:hover, ul.about a:active {
+    text-decoration: none;
+    color: #FFF;
+}
+
+ul.contact a i, ul.about a i {
+    font-size: 16px;
+    margin-left: 5px;
+}
+
+div.links {
+    text-align: right;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+code {
+    font-family: Consolas,Monaco,'Andale Mono',monospace;
+}
+
+
+pre code {
+    position: relative;
+    top: -0.5em;
+    padding: 0 1.5em 1.5em 1.5em;
+    font-size: 90%;
+    background: #373830;
+}
+
+pre[class*="language-"] {
+    padding-top: 0;
+    overflow-x: auto;
+    overflow-y: hidden;
+    background: #373830;
+    border: none !important;
+}
+
+.navigation {
+    float: right;
+    width: 150px;
+    list-style-type: none;
+    margin-right: -15px;
+}
+.navigation li {
+    margin: 0;
+    padding: 0
+}
+.navigation a, .navigation a:link, .navigation a:visited {
+    display: block;
+    color: #bbb;
+    font-size: 100%;
+    text-align: right;
+    padding: 4px 15px;
+}
+.navigation a:hover, .navigation a:focus, .navigation a:active {
+    background: #333;
+    border-radius: 4px;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    text-decoration: none;
+}
+
+dt {
+    margin-bottom: 5px;
+    margin-top: 10px;
+    font-size: 110%;
+}

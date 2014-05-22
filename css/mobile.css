@@ -1,0 +1,328 @@
+
+@font-face {
+    font-family: 'roboto';
+    src: url('fonts/Roboto-Light-webfont.eot');
+    src: url('fonts/Roboto-Light-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/Roboto-Light-webfont.woff') format('woff'),
+    url('fonts/Roboto-Light-webfont.ttf') format('truetype'),
+    url('fonts/Roboto-Light-webfont.svg#robotolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'roboto';
+    src: url('/fonts/Roboto-Medium-webfont.eot');
+    src: url('/fonts/Roboto-Medium-webfont.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/Roboto-Medium-webfont.woff') format('woff'),
+    url('/fonts/Roboto-Medium-webfont.ttf') format('truetype'),
+    url('/fonts/Roboto-Medium-webfont.svg#robotomedium') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'sansita';
+    src: url('/fonts/sansitaone-webfont.eot');
+    src: url('/fonts/sansitaone-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/sansitaone-webfont.woff') format('woff'),
+         url('/fonts/sansitaone-webfont.ttf') format('truetype'),
+         url('/fonts/sansitaone-webfont.svg#sansita_oneregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    font-family: roboto, sans-serif;
+    font-size: 12px !important;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: roboto, sans-serif !important;
+    background: #282927;
+    font-size: 12px !important;
+    margin: 0;
+    padding: 0;
+}
+
+.clear {
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+#title-panel {
+    color: #FFF;
+}
+
+#title-panel h1, #title-panel h2 {
+    font-family: roboto, sans-serif;
+    font-weight: normal;
+    text-shadow: 0px 0px 6px rgba(0, 0, 0, 1), 0px 0px 4px rgba(0, 0, 0, 1), 0px 0px 2px rgba(0, 0, 0, 1);
+    text-align: center;
+}
+
+#title-panel h1 {
+    font-size: 250%;
+    margin: 10px 0 0 0;
+    padding: 0;
+}
+
+#title-panel h2 {
+    font-size: 160%;
+    line-height: 25px;
+    color: #bbb;
+    margin: 0;
+    padding: 0;
+}
+
+
+#content-panel-inner {
+    margin: 0px;
+    box-shadow: 0 0 20px #000, inset 100px 0 100px -100px rgba(100, 90, 75, 0.3), inset -100px 0 100px -100px rgba(100, 90, 75, 0.3);
+    background: #f6f7f5;
+}
+
+.header {
+    color: #FFF;
+}
+
+#profile-header {
+    background: #C80606;
+}
+
+#expertise-header {
+    background: #E06F1D;
+}
+
+#experience-header {
+    background: #538400;
+}
+
+#others-header {
+    background: #0760AD;
+}
+
+#education-header {
+    background: #8325AC;
+}
+
+.header h3 {
+    line-height: 26px;
+    font-family: sansita, serif;
+    font-size: 22px;
+    font-weight: normal;
+    padding: 5px 5px;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.section {
+    padding: 15px;
+}
+
+ul.summary, ul.words, ul.jobs {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.summary li {
+    margin: 5px 0;
+}
+
+#expertise h5 {
+    color: #555;
+}
+
+ul.jobs li.job {
+    padding: 15px 0;
+    border-bottom: 1px dotted #ccc;
+}
+
+ul.jobs li.job:last-child {
+    border-bottom: none;
+}
+
+ul.jobs h5 {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+ul.jobs h5 img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+ul.jobs h5 span.date-range {
+    font-weight: normal;
+    font-size: 12px;
+    display: block;
+}
+
+@media only screen and (max-device-width: 600px) {
+    ul.jobs h5 {
+        float: none;
+        width: 100%;
+    }
+    ul.jobs div.job-detail {
+        margin: 5px 0 0 0;
+    }
+}
+@media only screen and (min-device-width: 601px) {
+    ul.jobs h5 {
+        float: left;
+        width: 170px;
+    }
+    ul.jobs div.job-detail {
+        margin: 0 0 0 190px;
+    }
+}
+
+ul.projects {
+    margin: 0;
+    padding: 15px 15px 0 15px;
+}
+
+li.project {
+    margin-bottom: 5px;
+}
+
+.column-2-1 {
+    float: left;
+    width: 50%;
+}
+.column-2-2 {
+    float: left;
+    width: 50%;
+}
+
+ul.contact {
+    list-style-type: none;
+    margin: 10px 0 10px 0;
+    padding: 0;
+    display: block;
+    width: 100%;
+}
+
+ul.contact li {
+    margin-bottom: 5px;
+}
+
+ul.contact a {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    color: #bbb;
+    font-size: 14px;
+    text-shadow: 0px 0px 4px rgba(0, 0, 0, 1), 0px 0px 2px rgba(0, 0, 0, 1);
+}
+
+ul.contact a:hover, ul.contact a:active {
+    text-decoration: none;
+    color: #FFF;
+}
+
+ul.contact a i {
+    display: none !important;
+}
+
+ul.contact #contact-linkedin {
+    display: none !important;
+}
+
+div.links {
+    text-align: center;
+    display: none;
+}
+
+a.download, a.download:link, a.download:visited {
+    color: #bbb;
+    text-decoration: none;
+    text-shadow: 0px 0px 4px rgba(0, 0, 0, 1), 0px 0px 2px rgba(0, 0, 0, 1);
+}
+
+a.download:hover, a.download:active {
+    color: #FFF;
+    text-decoration: none;
+}
+
+a.download i {
+    display: none !important;
+}
+
+li.job {
+    *zoom: 1;
+}
+
+li.job:before, li.job:after {
+    display: table;
+    line-height: 0;
+    content: "";
+}
+
+li.job:after {
+  clear: both;
+}
+
+#others ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#others .icon-chevron-sign-right {
+    margin-right: 5px;
+}
+
+#others .other-content {
+    margin-left: 25px;
+}
+
+#others a, #others a:link, #others a:visited {
+    margin-left: 5px;
+    color: #aaa;
+}
+
+#others a:hover, #others a:active {
+    text-decoration: none;
+    color: #0088CC;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.toggle:hover, .toggle:active {
+    text-decoration: none;
+}
+
+.toggle span:before {
+    content: "\f078";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    font-size: 12px;
+    padding-right: 4px;
+}
+
+.collapsed span:before {
+    content: "\f054" !important;
+    padding-left: 2px;
+    padding-right: 6px;
+}
