@@ -69,13 +69,13 @@
 </div>
 <p>
     Builds are published to the <a href="http://central.sonatype.org/" target="_blank">Sonatype Central Repository</a>.
-    If you're using Maven, add this dependency: <code>com.davemorrissey.bp:brightpearl-api-client:1.0.0</code>.
+    If you're using Maven, add this dependency: <code>uk.co.visalia.brightpearl:api-client:1.0.0</code>.
 </p>
 <p>
     The library has only two dependencies - GSON and Apache HttpComponents - to keep it as portable as possible.
     It can even be used on Android. GSON is used for serialising JSON requests and deserialising responses, and
     can be added to Maven projects as a normal dependency, and to Android projects as a library. Apache HttpComponents
-    provides the HTTP client. You can provide your own implementation of the <code title="com.davemorrissey.bp.apiclient.http.Client">Client</code> class to remove
+    provides the HTTP client. You can provide your own implementation of the <code title="uk.co.visalia.brightpearl.apiclient.http.Client">Client</code> class to remove
     the dependency on HttpComponents - we'll provide an alternative for Android soon.
 </p>
 <p>
@@ -93,8 +93,8 @@
     &lt;version&gt;2.2.4&lt;/version&gt;
 &lt;/dependency&gt;
 &lt;dependency&gt;
-    &lt;groupId&gt;com.davemorrissey.bp&lt;/groupId&gt;
-    &lt;artifactId&gt;brightpearl-api-client&lt;/artifactId&gt;
+    &lt;groupId&gt;uk.co.visalia.brightpearl&lt;/groupId&gt;
+    &lt;artifactId&gt;api-client&lt;/artifactId&gt;
     &lt;version&gt;1.0.0&lt;/version&gt;
 &lt;/dependency&gt;
 </code></pre>
@@ -485,7 +485,7 @@ Integer brandId2 = multiResponse.getServiceResponse(request2).getResponse();
 </p>
 <p>
  	When an error status is received from the Brightpearl multi-message API, this indicates none of the
- 	requests have been processed, and an exception from the <code>com.davemorrissey.bp.apiclient.exception</code>
+ 	requests have been processed, and an exception from the <code>uk.co.visalia.brightpearl.apiclient.exception</code>
  	package will be thrown.
 </p>
 <p>
