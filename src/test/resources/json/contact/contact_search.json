@@ -1,0 +1,71 @@
+{
+    "response": {
+        "metaData": {
+            "resultsAvailable": 10,
+            "resultsReturned": 5,
+            "firstResult": 2,
+            "lastResult": 4,
+            "columns": [
+                {
+                    "name": "contactId",
+                    "sortable": true,
+                    "filterable": true,
+                    "reportDataType": "INTEGER",
+                    "required": false
+                },
+                {
+                    "name": "primaryEmail",
+                    "sortable": true,
+                    "filterable": true,
+                    "reportDataType": "SEARCH_STRING",
+                    "required": false
+                },
+                {
+                    "name": "firstName",
+                    "sortable": true,
+                    "filterable": true,
+                    "reportDataType": "SEARCH_STRING",
+                    "required": false
+                },
+                {
+                    "name": "lastName",
+                    "sortable": true,
+                    "filterable": true,
+                    "reportDataType": "SEARCH_STRING",
+                    "required": false
+                }
+            ],
+            "sorting": [
+                {
+                    "filterable": {
+                        "name": "lastName",
+                        "sortable": true,
+                        "filterable": true,
+                        "reportDataType": "SEARCH_STRING",
+                        "required": false
+                    },
+                    "direction": "ASC"
+                },
+                {
+                    "filterable": {
+                        "name": "firstName",
+                        "sortable": true,
+                        "filterable": true,
+                        "reportDataType": "SEARCH_STRING",
+                        "required": false
+                    },
+                    "direction": "ASC"
+                }
+            ]
+        },
+        "results": [
+            [
+                "4",
+                "admin@email.com",
+                "Primary",
+                "Admin"
+            ]
+        ]
+    },
+    "reference": {}
+}

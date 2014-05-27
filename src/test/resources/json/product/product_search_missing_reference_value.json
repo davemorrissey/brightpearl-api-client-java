@@ -1,0 +1,114 @@
+{"response": {
+    "metaData": {
+        "resultsAvailable": 1,
+        "resultsReturned": 1,
+        "firstResult": 1,
+        "lastResult": 1,
+        "columns": [
+            {
+                "name": "productId",
+                "sortable": true,
+                "filterable": true,
+                "reportDataType": "IDSET",
+                "required": false
+            },
+            {
+                "name": "productName",
+                "sortable": true,
+                "filterable": true,
+                "reportDataType": "SEARCH_STRING",
+                "required": false
+            },
+            {
+                "name": "SKU",
+                "sortable": true,
+                "filterable": true,
+                "reportDataType": "STRING",
+                "required": false
+            },
+            {
+                "name": "EAN",
+                "sortable": true,
+                "filterable": true,
+                "reportDataType": "STRING",
+                "required": false
+            },
+            {
+                "name": "UPC",
+                "sortable": true,
+                "filterable": true,
+                "reportDataType": "STRING",
+                "required": false
+            },
+            {
+                "name": "ISBN",
+                "sortable": true,
+                "filterable": true,
+                "reportDataType": "STRING",
+                "required": false
+            },
+            {
+                "name": "stockTracked",
+                "sortable": true,
+                "filterable": true,
+                "reportDataType": "BOOLEAN",
+                "required": false
+            },
+            {
+                "name": "salesChannelName",
+                "sortable": true,
+                "filterable": false,
+                "reportDataType": "STRING",
+                "required": false
+            },
+            {
+                "name": "createdOn",
+                "sortable": true,
+                "filterable": true,
+                "reportDataType": "PERIOD",
+                "required": false
+            },
+            {
+                "name": "updatedOn",
+                "sortable": true,
+                "filterable": true,
+                "reportDataType": "PERIOD",
+                "required": false
+            },
+            {
+                "name": "brightpearlCategoryCode",
+                "sortable": false,
+                "filterable": false,
+                "reportDataType": "INTEGER",
+                "referenceData": ["productCategoryMembership"],
+                "required": false
+            },
+            {
+                "name": "productGroupId",
+                "sortable": true,
+                "filterable": true,
+                "reportDataType": "INTEGER",
+                "required": false
+            }
+        ],
+        "sorting": [
+            {
+                "filterable": {
+                    "name": "productId",
+                    "sortable": true,
+                    "filterable": true,
+                    "reportDataType": "IDSET",
+                    "required": false
+                },
+                "direction": "ASC"
+            }
+        ]
+    },
+    "results": [
+        [1009, "PPL Book 2: Human Performance", "PPL2", "EANPPL2", "UPCPPL2", "ISBNPPL2", true, "Brightpearl", "2013-05-23T22:14:06.000Z", "2013-05-23T22:14:44.000Z", 1009, null]
+    ]
+}, "reference": {
+    "productCategoryMembership": {
+
+    }
+}}

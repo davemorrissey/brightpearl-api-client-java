@@ -1,0 +1,68 @@
+{
+    "response": [
+        {
+            "id": 1008,
+            "brandId": 74,
+            "productTypeId": 1,
+            "identity": {
+                "sku": "SKU0001",
+                "isbn": "0-684-84328-5",
+                "ean": "ISNB0-9712345-",
+                "upc": "5778400001",
+                "barcode": "738737638"
+            },
+            "productGroupId": 0,
+            "stock": {
+                "stockTracked": true
+            },
+            "financialDetails": {
+                "taxCode": {
+                    "id": 7,
+                    "code": "T20"
+                }
+            },
+            "salesChannels": [
+                {
+                    "salesChannelName": "Brightpearl",
+                    "productName": "Product B",
+                    "productCondition": "new",
+                    "categories": [
+                        {
+                            "categoryCode": "276"
+                        },
+                        {
+                            "categoryCode": "295"
+                        }
+                    ],
+                    "description": {
+                        "languageCode": "en",
+                        "text": "<p>Some description</p>",
+                        "format": "HTML_FRAGMENT"
+                    },
+                    "shortDescription": {
+                        "languageCode": "en",
+                        "text": "<p>Some short description</p>",
+                        "format": "HTML_FRAGMENT"
+                    }
+                }
+            ],
+            "composition": {
+                "bundle": false
+            },
+            "variations": [
+                {
+                    "optionId": 1,
+                    "optionName": "Colour",
+                    "optionValueId": 1,
+                    "optionValue": "Black"
+                },
+                {
+                    "optionId": 3,
+                    "optionName": "Colour",
+                    "optionValueId": 9,
+                    "optionValue": "Black"
+                }
+            ]
+        }
+    ]
+}

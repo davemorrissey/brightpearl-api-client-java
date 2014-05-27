@@ -1,0 +1,79 @@
+{"response": [
+    {
+        "id": 1012,
+        "brandId": 74,
+        "productTypeId": 1,
+        "identity": {
+            "sku": "PPLSTARTER",
+            "isbn": "ISBNPPLSTARTER",
+            "ean": "EANPPLSTARTER",
+            "upc": "UPCPPLSTARTER",
+            "barcode": "BCPPLSTARTER"
+        },
+        "stock": {
+            "stockTracked": false,
+            "weight": {
+                "magnitude": 2.30
+            }
+        },
+        "financialDetails": {
+            "taxable": false,
+            "taxCode": {
+                "id": 1,
+                "code": "T9"
+            }
+        },
+        "salesChannels": [
+            {
+                "salesChannelName": "Brightpearl",
+                "productName": "PPL Starter Pack",
+                "productCondition": "new",
+                "categories": [
+                    {
+                        "categoryCode": "297"
+                    }
+                ],
+                "description": {
+                    "languageCode": "en",
+                    "text": "",
+                    "format": "HTML_FRAGMENT"
+                },
+                "shortDescription": {
+                    "languageCode": "en",
+                    "text": "",
+                    "format": "HTML_FRAGMENT"
+                }
+            }
+        ],
+        "composition": {
+            "bundle": true,
+            "bundleComponents": [
+                {
+                    "productId": 1011,
+                    "productQuantity": 1,
+                    "composition": {
+                        "bundle": true,
+                        "bundleComponents": [
+                            {
+                                "productId": 1008,
+                                "productQuantity": 1
+                            },
+                            {
+                                "productId": 1009,
+                                "productQuantity": 1
+                            },
+                            {
+                                "productId": 1010,
+                                "productQuantity": 1
+                            }
+                        ]
+                    }
+                },
+                {
+                    "productId": 1007,
+                    "productQuantity": 1
+                }
+            ]
+        }
+    }
+]}

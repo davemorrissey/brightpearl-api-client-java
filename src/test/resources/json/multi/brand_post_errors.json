@@ -1,0 +1,19 @@
+{"response": {
+    "processedMessages": [
+        {
+            "label": "aeeb221d-778f-4f16-9652-f529b6aa7227",
+            "statusCode": 400,
+            "body": {
+                "content": "{\"errors\":[{\"code\":\"PRDC-024\",\"message\":\"Brand name is required\"}]}"
+            }
+        },
+        {
+            "label": "c80c7067-a776-42f8-ae46-540f53ba1410",
+            "statusCode": 400,
+            "body": {
+                "content": "{\"errors\":[{\"code\":\"PRDC-024\",\"message\":\"Brand name is required\"}]}"
+            }
+        }
+    ],
+    "unprocessedMessages": []
+}}

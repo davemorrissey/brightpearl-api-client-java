@@ -1,0 +1,75 @@
+{"response": {
+    "processedMessages": [
+        {
+            "label": "1",
+            "statusCode": 200,
+            "body": {
+                "content": "{\"response\":1000}"
+            }
+        },
+        {
+            "label": "2",
+            "statusCode": 200,
+            "body": {
+                "content": "{\"response\":2000}"
+            }
+        },
+        {
+            "label": "3",
+            "statusCode": 200,
+            "body": {
+                "content": "{\"response\":3000}"
+            }
+        },
+        {
+            "label": "4",
+            "statusCode": 200,
+            "body": {
+                "content": "{\"response\":4000}"
+            }
+        },
+        {
+            "label": "5",
+            "statusCode": 200,
+            "body": {
+                "content": "{\"response\":5000}"
+            }
+        },
+        {
+            "label": "6",
+            "statusCode": 200,
+            "body": {
+                "content": "{\"response\":6000}"
+            }
+        },
+        {
+            "label": "7",
+            "statusCode": 200,
+            "body": {
+                "content": "{\"response\":7000}"
+            }
+        },
+        {
+            "label": "8",
+            "statusCode": 200,
+            "body": {
+                "content": "{\"response\":8000}"
+            }
+        },
+        {
+            "label": "9",
+            "statusCode": 200,
+            "body": {
+                "content": "{\"response\":9000}"
+            }
+        },
+        {
+            "label": "10",
+            "statusCode": 200,
+            "body": {
+                "content": "{\"response\":10000}"
+            }
+        }
+    ],
+    "unprocessedMessages": []
+}}

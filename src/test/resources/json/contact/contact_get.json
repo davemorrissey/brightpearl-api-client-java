@@ -1,0 +1,82 @@
+{"response": [
+    {
+        "contactId": 200,
+        "isPrimaryContact": true,
+        "salutation": "Mr.",
+        "firstName": "Demo",
+        "lastName": "Customer",
+        "postAddressIds": {
+            "DEF": 107,
+            "DEL": 107,
+            "BIL": 107
+        },
+        "communication": {
+            "emails": {
+                "PRI": {
+                    "email": "demo@test.com"
+                },
+                "SEC": {
+                    "email": "foo@example.com"
+                },
+                "TER": {
+                    "email": "bar@example.com"
+                }
+            },
+            "telephones": {
+                "PRI": "01245 845632",
+                "SEC": "01111 222333",
+                "MOB": "07777 121111"
+            },
+            "messagingVoips": {
+                "SKP": "example-customer-skype"
+            },
+            "websites": {
+                "PRI": "http://www.example.com"
+            }
+        },
+        "contactStatus": {
+            "current": {
+                "contactStatusName": "Suspect",
+                "contactStatusId": 2
+            },
+            "history": [
+                {
+                    "contactStatusName": "Suspect",
+                    "contactStatusId": 2,
+                    "occuredOn": "2013-05-28T20:35:26.000Z",
+                    "staffContactId": 4
+                }
+            ]
+        },
+        "relationshipToAccount": {
+            "isSupplier": false,
+            "isStaff": false
+        },
+        "marketingDetails": {
+            "isReceiveEmailNewsletter": true
+        },
+        "financialDetails": {
+            "priceListId": 1,
+            "nominalCode": "10",
+            "taxCodeId": 7,
+            "creditLimit": 1000,
+            "creditTermDays": 30,
+            "currencyId": 1,
+            "discountPercentage": 0.00
+        },
+        "assignment": {
+            "current": {
+                "staffOwnerContactId": 4,
+                "leadSourceId": 4,
+                "accountReference": "DEMOACTCODE0001"
+            }
+        },
+        "organisation": {
+            "name": "Customer Company Ltd."
+        },
+        "createdByid": 2,
+        "createdOn": "2010-08-17T12:57:14.000Z",
+        "updatedOn": "2013-05-28T20:35:27.000Z",
+        "contactTags": "1"
+    }
+]}

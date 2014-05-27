@@ -1,0 +1,10 @@
+{"response": [
+    {
+        "statusId": 1,
+        "name": "Draft / Quote",
+        "orderTypeCode": "SO",
+        "sort": 0,
+        "disabled": false,
+        "visible": true
+    }
+]}
