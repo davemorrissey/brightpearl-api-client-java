@@ -6,7 +6,7 @@
 
     <groupId>uk.co.visalia.brightpearl</groupId>
     <artifactId>api-client</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1-SNAPSHOT</version>
 
     <name>${project.groupId}:${project.artifactId}</name>
     <description>A simple Java client library for the Brightpearl API.</description>
