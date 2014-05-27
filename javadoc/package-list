@@ -1,0 +1,17 @@
+uk.co.visalia.brightpearl.apiclient
+uk.co.visalia.brightpearl.apiclient.account
+uk.co.visalia.brightpearl.apiclient.auth
+uk.co.visalia.brightpearl.apiclient.client
+uk.co.visalia.brightpearl.apiclient.client.adaptors
+uk.co.visalia.brightpearl.apiclient.client.multimessage
+uk.co.visalia.brightpearl.apiclient.client.parsing
+uk.co.visalia.brightpearl.apiclient.common
+uk.co.visalia.brightpearl.apiclient.config
+uk.co.visalia.brightpearl.apiclient.exception
+uk.co.visalia.brightpearl.apiclient.http
+uk.co.visalia.brightpearl.apiclient.http.httpclient4
+uk.co.visalia.brightpearl.apiclient.multimessage
+uk.co.visalia.brightpearl.apiclient.ratelimit
+uk.co.visalia.brightpearl.apiclient.request
+uk.co.visalia.brightpearl.apiclient.search
+uk.co.visalia.brightpearl.apiclient.util
