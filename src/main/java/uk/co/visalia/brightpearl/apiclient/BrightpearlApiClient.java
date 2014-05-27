@@ -775,7 +775,9 @@ public final class BrightpearlApiClient {
                     if (jsonWrapper.getErrors() != null && !jsonWrapper.getErrors().isEmpty()) {
                         throw new BrightpearlAuthException(jsonWrapper.getErrors().get(0).getMessage());
                     } else if (jsonWrapper.getResponse() != null) {
-                        throw new BrightpearlAuthException(jsonWrapper.getResponse().getAsString());
+                        if (jsonWrapper.getResponse().isJsonPrimitive()) {
+                            throw new BrightpearlAuthException(jsonWrapper.getResponse().getAsString());
+                        }
                     }
                     throw new BrightpearlAuthException();
                 } else if (jsonWrapper.getErrors() != null && !jsonWrapper.getErrors().isEmpty()) {
